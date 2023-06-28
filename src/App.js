@@ -8,6 +8,8 @@ import Profile from './components/Profile';
 import Profile2 from './components/Profile2';
 import Counter from './components/Counter';
 import Resume from './components/Resume';
+import FunctionEvent from './components/FunctionEvent';
+import ClassEvent from './components/ClassEvent';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <Profile2 name="Henry" lastname="Ford" />
       <Resume name="Kara" />
       <Counter></Counter>
+      <FunctionEvent />
+      <ClassEvent />
     </div>
   );
 }
