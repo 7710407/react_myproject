@@ -1,5 +1,6 @@
 function Profile(props) {
-    return <h1>Name: {props.name} {props.lastname}
+    let longName = "Don " + props.name;
+    return <h1>Name: {longName} {props.lastname}
         {props.children}
         </h1>
 }
