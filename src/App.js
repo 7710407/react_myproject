@@ -5,7 +5,9 @@ import Salut from './components/Salut';
 import Salam from './components/Salam';
 import Message from './components/Message';
 import Profile from './components/Profile';
+import Profile2 from './components/Profile2';
 import Counter from './components/Counter';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Profile name="Armen" lastname="Gagikyan"> 
         <h3>This is a profile of a person</h3>
       </Profile>
+      <Profile2 name="Henry" lastname="Ford" />
+      <Resume name="Kara" />
       <Counter></Counter>
     </div>
   );
